@@ -1,0 +1,7 @@
+soap:
+  ws: https://www.dataaccess.com
+
+spring:
+  config:
+    activate:
+      on-profile: dev

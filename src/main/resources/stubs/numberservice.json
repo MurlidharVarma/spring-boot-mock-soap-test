@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "url" : "https://www.dataaccess.com/webservicesserver/numberconversion.wso",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n    <soap:Body>\n        <m:NumberToWordsResponse xmlns:m=\"http://www.dataaccess.com/webservicesserver/\">\n            <m:NumberToWordsResult>five hundred </m:NumberToWordsResult>\n        </m:NumberToWordsResponse>\n    </soap:Body>\n</soap:Envelope>",
+    "headers" : {
+      "Content-Type" : "text/xml"
+    }
+  }
+}

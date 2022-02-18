@@ -1,0 +1,8 @@
+soap:
+  ws: http://localhost:8089
+
+spring:
+  config:
+    activate:
+      on-profile: local
+
